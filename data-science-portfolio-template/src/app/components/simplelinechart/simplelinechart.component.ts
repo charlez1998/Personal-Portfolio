@@ -118,22 +118,22 @@ export class SimplelinechartComponent implements OnInit {
                         dy: 30,
                         dx: 30
                       },
-                      {
-                        note: {
-                          title: 'Section Four'
-                        },
-                        type: d3annotate.annotationCalloutCircle,
-                        subject: {
-                          radius: 5,
-                          radiusPadding: 0
-                        },
-                        className: 'mywork',
-                        color: ['#dddddd'],
-                        x: x(parseTime(datapull[anote4].date)),
-                        y: height - y(datapull[anote4].cases),
-                        dy: -20,
-                        dx: -90
-                      },
+                      // {
+                      //   note: {
+                      //     title: 'Section Four'
+                      //   },
+                      //   type: d3annotate.annotationCalloutCircle,
+                      //   subject: {
+                      //     radius: 5,
+                      //     radiusPadding: 0
+                      //   },
+                      //   className: 'mywork',
+                      //   color: ['#dddddd'],
+                      //   x: x(parseTime(datapull[anote4].date)),
+                      //   y: height - y(datapull[anote4].cases),
+                      //   dy: -20,
+                      //   dx: -90
+                      // },
                       {
                         note: {
                           title: 'Medium Feed'
